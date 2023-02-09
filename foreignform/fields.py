@@ -1,5 +1,5 @@
 from django.contrib.admin import widgets as admin_widgets
-from django.contrib.postgres.fields import JSONField
+from django.db.models import JSONField
 
 from .widgets import CodeMirrorWidget
 
